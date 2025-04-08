@@ -13,4 +13,6 @@ public record Money
         Amount = amount;
         Currency = currency;
     }
+    
+    public string AsString() => $"{Amount} {Currency}";
 }
