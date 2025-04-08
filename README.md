@@ -21,6 +21,9 @@ The following class diagram illustrates the structure of the application:
 
 See [docs/class-diagram.puml](docs/class-diagram.puml) for the source code of the diagram.
 
+## User Stories
+To see the user stories that describes the functionality of the application, check the [user-stories](docs/user-stories.md) document.
+
 # Usage
 Run the application using the following command:
 
