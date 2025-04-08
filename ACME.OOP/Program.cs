@@ -12,6 +12,7 @@ var supplier = new Supplier("SUP0001", "Microsoft, Inc.", supplierAddress);
 var purchaseOrder = new PurchaseOrder("PO0001", new SupplierId(supplier.Identifier), "USD");
 purchaseOrder.AddItem(ProductId.New(), 10, 25.99m);
 purchaseOrder.AddItem(ProductId.New(), 5, 15.99m);
+purchaseOrder.AddItem(ProductId.New(), 16, 34.99m);
 
 // Display the purchase order details
 Console.WriteLine($"Purchase Order ID: {purchaseOrder.OrderNumber} created on {purchaseOrder.OrderDate} for supplier {supplier.Name}");
